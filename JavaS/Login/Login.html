@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validator.js"></script>
+</head>
+<body>
+<form name="contactForm" onsubmit="return validateForm()" method="post">
+    <h2>Login Form</h2>
+    <div class="row">
+        
+        <input type="text" name="name" placeholder="Enter your Name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="row">
+        
+        <input type="password" name="password" placeholder="Enter your Password">
+        <div class="error" id="pwdErr"></div>
+    </div>
+           
+    <div class="row">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</body>
+</html>
